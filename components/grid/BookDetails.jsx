@@ -2,7 +2,7 @@ import React, { forwardRef, useImperativeHandle, useMemo, useState } from "react
 import { IoCloseSharp } from "react-icons/io5";
 import Spinner from "../shared/Spinner";
 import useFetch from "../../hooks/useFetch";
-import { BOOKS_URL, COVERS_URL, GENERAL_DATA_MAPPER, NO_COVER_URL } from "../../utls/constants";
+import { BOOKS_URL, COVERS_URL, GENERAL_DATA_MAPPER, NO_COVER_URL } from "../../utils/constants";
 import styles from "./BookDetails.module.css";
 
 const propMapper = (prop) => prop?.value || prop;
