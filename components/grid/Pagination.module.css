@@ -10,8 +10,8 @@
 .nextButton {
   padding: 8px;
   color: white;
-  background-color: #2b3a55;
-  border: 1px solid #2b3a55;
+  background-color: #213555;
+  border: 1px solid #213555;
   border-radius: 4px;
   cursor: pointer;
   box-shadow: rgba(43, 58, 85, 0.2) 0px 2px 4px -1px, rgba(43, 58, 85, 0.14) 0px 4px 5px 0px, rgba(43, 58, 85, 0.12) 0px 1px 10px 0px;
@@ -29,8 +29,8 @@
 .pageDropdown {
   padding: 8px;
   color: white;
-  background-color: #2b3a55;
-  border: 1px solid #2b3a55;
+  background-color: #213555;
+  border: 1px solid #213555;
   border-radius: 4px;
   cursor: pointer;
 }
@@ -41,5 +41,5 @@
 
 .pageDropdown option {
   color: black;
-  background-color: #f2e5e5;
+  background-color: #f5efe7;
 }

@@ -34,9 +34,9 @@
   box-sizing: border-box;
   text-decoration: none;
   font-weight: 300;
-  color: #2b3a55;
+  color: #213555;
   cursor: pointer;
-  background-color: #f2e5e5;
+  background-color: #f5efe7;
   box-shadow: rgba(43, 58, 85, 0.2) 0px 2px 4px -1px, rgba(43, 58, 85, 0.14) 0px 4px 5px 0px, rgba(43, 58, 85, 0.12) 0px 1px 10px 0px;
 }
 
@@ -50,8 +50,8 @@
   font-weight: bold;
   color: white;
   font-size: 1.4em;
-  border-bottom: 1px solid #ce7777;
-  background-color: #ce7777;
+  border-bottom: 1px solid #4f709c;
+  background-color: #4f709c;
   cursor: initial;
 }
 

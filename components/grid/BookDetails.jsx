@@ -81,19 +81,21 @@ const BookDetails = forwardRef(({}, ref) => {
                   <div className={styles.coverContainer}>
                     <img src={cover ? cover : NO_COVER_URL} alt="Cover" className={styles.cover} />
                     <div className={styles.individualContent}>
-                      <span className={styles.subtitle}>First Publish Date </span> {propMapper(bookDetails?.first_publish_date) || "No date available"}
+                      <span className={styles.subtitle}>First Publish Date </span>{" "}
+                      <span>{propMapper(bookDetails?.first_publish_date) || "No date available"}</span>
                     </div>
                   </div>
                   <div className={styles.contentContainer}>
                     <div className={styles.individualContent}>
                       <span className={styles.subtitle}>Description</span>
-                      {propMapper(bookDetails?.description) || "No description available"}
+                      <span className={styles.text}>{propMapper(bookDetails?.description) || "No description available"}</span>
                     </div>
                     <div className={styles.individualContent}>
-                      <span className={styles.subtitle}>Author</span> {propMapper(authorDetails?.name) || "No author available"}
+                      <span className={styles.subtitle}>Author</span> <span>{propMapper(authorDetails?.name) || "No author available"}</span>
                     </div>
                     <div className={styles.individualContent}>
-                      <span className={styles.subtitle}>Author Bio</span> {propMapper(authorDetails?.bio) || "No author bio available"}
+                      <span className={styles.subtitle}>Author Bio</span>{" "}
+                      <span className={styles.text}>{propMapper(authorDetails?.bio) || "No author bio available"}</span>
                     </div>
                   </div>
                 </div>

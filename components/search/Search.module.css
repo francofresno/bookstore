@@ -15,12 +15,12 @@
   height: 45px;
   width: 450px;
   padding: 1px 10px;
-  border: 1px solid #ce7777;
+  border: 1px solid #4f709c;
   border-radius: 5px 0 0 5px;
   box-sizing: border-box;
   text-decoration: none;
   font-weight: 300;
-  color: #ce7777;
+  color: #4f709c;
   background-color: white;
 }
 
@@ -29,7 +29,7 @@
 }
 
 .inputSearch::placeholder {
-  color: rgb(206, 119, 119, 0.5);
+  color: rgb(79, 112, 156, 0.5);
 }
 
 .searchIconContainer {
@@ -37,11 +37,11 @@
   align-items: center;
   cursor: pointer;
   height: 45px;
-  border: 1px solid #ce7777;
+  border: 1px solid #4f709c;
   padding: 5px 8px;
   border-left: none;
   font-size: 2.5em;
   border-radius: 0 5px 5px 0;
-  color: #ce7777;
+  color: #4f709c;
   background-color: transparent;
 }

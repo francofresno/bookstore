@@ -35,7 +35,7 @@
   min-width: 45%;
   max-width: 60%;
   min-height: 25%;
-  background-color: #f2e5e5;
+  background-color: #f5efe7;
   padding: 20px;
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(206, 119, 119, 0.2);
@@ -74,7 +74,12 @@
 .subtitle {
   font-weight: 700;
   font-size: 1.2em;
-  color: #041c32;
+  color: #4f709c;
+}
+
+.text {
+  overflow-y: auto;
+  max-height: 30vh;
 }
 
 .spinner {
