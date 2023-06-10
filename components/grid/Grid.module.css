@@ -1,0 +1,70 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.gridContainer {
+  display: flex;
+  flex-direction: column;
+  place-content: space-between;
+  border-radius: 5px;
+  height: 700px;
+  width: 90%;
+  padding: 10px;
+  background-color: transparent;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  align-self: center;
+  margin-top: 25px;
+  width: 95%;
+  height: 90%;
+  color: white;
+  font-size: 1.2em;
+}
+
+.row {
+  display: flex;
+  height: 45px;
+  padding: 1px 10px;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-weight: 300;
+  color: #2b3a55;
+  cursor: pointer;
+  background-color: #f2e5e5;
+  box-shadow: rgba(43, 58, 85, 0.2) 0px 2px 4px -1px, rgba(43, 58, 85, 0.14) 0px 4px 5px 0px, rgba(43, 58, 85, 0.12) 0px 1px 10px 0px;
+}
+
+.emptyRow {
+  cursor: initial;
+}
+
+.header {
+  border-radius: 5px 5px 0 0;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-size: 1.4em;
+  border-bottom: 1px solid #ce7777;
+  background-color: #ce7777;
+  cursor: initial;
+}
+
+.cell {
+  text-align: center;
+  align-self: center;
+  padding: 8px;
+  margin: 0 10px 0 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.grid .row:last-child {
+  border-radius: 0 0 5px 5px;
+}

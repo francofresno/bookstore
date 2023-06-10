@@ -1,0 +1,18 @@
+.container {
+  position: sticky;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  padding: 0 50px 3px;
+  gap: 15px;
+  box-shadow: rgba(43, 58, 85, 0.2) 0px 2px 4px -1px, rgba(43, 58, 85, 0.14) 0px 4px 5px 0px, rgba(43, 58, 85, 0.12) 0px 1px 10px 0px;
+  background-color: #2b3a55;
+  font-weight: 600;
+  font-size: 2em;
+  color: white;
+}
+
+.textContainer {
+  margin-top: 4px;
+}

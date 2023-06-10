@@ -1,0 +1,45 @@
+.pagination {
+  margin-top: 16px;
+  margin-right: 3%;
+  display: flex;
+  align-self: end;
+  gap: 2%;
+}
+
+.prevButton,
+.nextButton {
+  padding: 8px;
+  color: white;
+  background-color: #2b3a55;
+  border: 1px solid #2b3a55;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: rgba(43, 58, 85, 0.2) 0px 2px 4px -1px, rgba(43, 58, 85, 0.14) 0px 4px 5px 0px, rgba(43, 58, 85, 0.12) 0px 1px 10px 0px;
+}
+
+.prevButton:disabled,
+.nextButton:disabled {
+  color: rgb(94, 99, 110);
+  background-color: rgb(141, 146, 155);
+  border: 1px solid rgb(141, 146, 155);
+  cursor: initial;
+  box-shadow: rgba(43, 58, 85, 0.2) 0px 2px 4px -1px, rgba(43, 58, 85, 0.14) 0px 4px 5px 0px, rgba(43, 58, 85, 0.12) 0px 1px 10px 0px;
+}
+
+.pageDropdown {
+  padding: 8px;
+  color: white;
+  background-color: #2b3a55;
+  border: 1px solid #2b3a55;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pageDropdown:focus {
+  outline: none;
+}
+
+.pageDropdown option {
+  color: black;
+  background-color: #f2e5e5;
+}
